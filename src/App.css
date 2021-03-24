@@ -1,38 +1,106 @@
-.App {
+
+.chatSection {
+  width: 450px;
+	height: auto;
+  position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	border-radius: 10px;
+	background-color: #f9fcfb;
+  overflow:auto
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Fira Code';
   text-align: center;
+  margin: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.botContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+
+.messagesSection {
+  height: 90%;
+}
+
+.messageInputField {
+  margin-left: 10px;
+  font-size: 18px;
+  height:50px;
+  outline:none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  width: 90%;
+  border-radius:10px;
+  padding-left:5px;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.messagesSection {
+  min-height: 70vh;
+  max-height: 70vh;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+
+.botCard {
+  width: 80%;
+  border-bottom-right-radius: 30px 30px;
+  border-top-right-radius: 30px 30px;
+  border-bottom-left-radius: 30px 30px;
+  background-color: #f17985;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.userCard {
+  width: 80%;
+  border-bottom-right-radius: 30px 30px;
+  border-top-left-radius: 30px 30px;
+  border-bottom-left-radius: 30px 30px;
+  float: right;
+  background-color: #05c267;
+  margin-right: 5px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.messagesSection::-webkit-scrollbar {
+  display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.messagesSection {
+  -ms-overflow-style: none;  /* IE and Edge */
+   /* Firefox */
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 992px) {
+ 
+  .userCard {
+    width: 50%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .botCard {
+    width: 50%;
   }
 }
