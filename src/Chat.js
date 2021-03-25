@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { Widget } from 'react-chat-widget';
-
+import { Widget } from 'react-chat-widget'
 
 import './App.css'
 import Messages from './Messages'
@@ -50,23 +49,19 @@ const Chat = (props) => {
   }
 
   return (
-
-  
     <div className="chatSection">
-        <div className="messagesContainer">
-          <Messages messages={responses} />
-        </div>
-          <input
-            type="text"
-            value={currentMessage}
-            onChange={handleMessageChange}
-            onKeyDown={handleSubmit}
-            placeholder="Say something..."
-            className="messageInputField"
-          />
-          <div onTap={handleSubmit}>
-  
-          </div>
+      <div className="messagesContainer">
+        <Messages messages={responses} />
+      </div>
+      <input
+        type="text"
+        value={currentMessage}
+        onChange={handleMessageChange}
+        onKeyDown={handleSubmit}
+        placeholder="Write something..."
+        className="messageInputField"
+      />
+      <div onTap={handleSubmit}></div>
     </div>
   )
 }

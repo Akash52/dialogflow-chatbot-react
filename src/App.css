@@ -1,15 +1,19 @@
+* {
+  box-sizing: border-box;
+}
 
 .chatSection {
-  width: 450px;
-	height: auto;
-  position:absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 1;
-	border-radius: 10px;
-	background-color: #f9fcfb;
-  overflow:auto
+  width: 350px;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -45%);
+  border-radius: 10px;
+  background-color: #dafff3;
+  overflow: auto;
+  box-shadow: 0 9px 33px rgba(0, 0, 0, 0.07);
 }
 
 .heading {
@@ -30,17 +34,15 @@
 }
 
 .messageInputField {
-  margin-left: 10px;
+  margin: 0;
   font-size: 18px;
-  height:50px;
-  outline:none;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: hidden;
-  width: 90%;
-  border-radius:10px;
-  padding-left:5px;
+  height: 20px;
+  padding: 20px;
+  outline: none;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 10px;
+  z-index: -1;
 }
 
 .inputSection {
@@ -57,9 +59,8 @@
   overflow-y: auto;
 }
 
-
 .botCard {
-  width: 80%;
+  width: 70%;
   border-bottom-right-radius: 30px 30px;
   border-top-right-radius: 30px 30px;
   border-bottom-left-radius: 30px 30px;
@@ -70,7 +71,7 @@
 }
 
 .userCard {
-  width: 80%;
+  width: 70%;
   border-bottom-right-radius: 30px 30px;
   border-top-left-radius: 30px 30px;
   border-bottom-left-radius: 30px 30px;
@@ -85,8 +86,8 @@
 }
 
 .messagesSection {
-  -ms-overflow-style: none;  /* IE and Edge */
-   /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  /* Firefox */
 }
 
 .messagesContainer {
@@ -95,7 +96,6 @@
 }
 
 @media only screen and (min-width: 992px) {
- 
   .userCard {
     width: 50%;
   }
