@@ -1,7 +1,7 @@
 # React Chat-Bot using Dialogflow
 ---
 
-[Github Pages Live Demo](https://dialogflowchatbot.netlify.app/)
+[Live Demo](https://dialogflowchatbot.netlify.app/)
 
 ##  About <a name = "about"></a>
 
