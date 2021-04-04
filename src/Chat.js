@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import { Widget } from 'react-chat-widget'
+import 'react-chat-widget/lib/styles.css'
 
 import './App.css'
 import Messages from './Messages'
