@@ -13,17 +13,17 @@
     {
         "strMeal": "Dabeli Recipe",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/02/dabeli-recipe-280x280.jpg",
-        "idMeal": "53016"
+        "idMeal": "53014"
       },
     {
         "strMeal": "Khandvi Recipe",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/07/khandvi-recipe-280x280.jpg",
-        "idMeal": "53016"
-      }
-    ,{
+        "idMeal": "53018"
+      },
+    {
         "strMeal": "Methi Muthia (Fried And Steamed)",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/08/steamed-and-fried-methi-muthia-280x280.jpg",
-        "idMeal": "53016"
+        "idMeal": "53017"
       }
   ]
 }
