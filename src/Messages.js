@@ -9,7 +9,7 @@ const Messages = ({ messages }) => {
       {messages.map((message) => {
         return (
           <div className="messagesContainer">
-            <Message message={message} />
+            <Message message={message} scrollToBottom />
           </div>
         )
       })}

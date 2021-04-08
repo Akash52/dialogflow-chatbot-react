@@ -1,0 +1,14 @@
+{
+  "meals": [
+    {
+      "strMeal": "Khaman Dhokla (Savory Gram Flour Cake)",
+      "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/khaman-recipe-280x280.jpg",
+      "idMeal": "53016"
+    },
+    {
+        "strMeal": "Thepla Recipe | Methi Thepla (Fenugreek Flatbread)",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/thepla-280x280.jpg",
+        "idMeal": "53016"
+      }
+  ]
+}
