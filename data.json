@@ -121,9 +121,20 @@
         "idMeal": "24"
       },
      {
+        "strMeal": "Fafda Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/12/gujarati-fafda-280x280.jpg",
+        "idMeal": "25"
+      },
+    {
         "strMeal": "Mango Salad Recipe",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/06/raw-mango-salad-recipe-2-280x280.jpg",
         "idMeal": "26"
+      },
+     {
+        "strMeal": "Carrot Sambharo | Gujarati Carrot Salad",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/carrot-sambharo-280x280.jpg",
+        "idMeal": "27"
       }
+    
   ]
 }
