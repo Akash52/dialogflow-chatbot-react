@@ -3,27 +3,127 @@
     {
       "strMeal": "Khaman Dhokla (Savory Gram Flour Cake)",
       "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/khaman-recipe-280x280.jpg",
-      "idMeal": "53016"
+      "idMeal": "1"
     },
     {
         "strMeal": "Thepla Recipe | Methi Thepla (Fenugreek Flatbread)",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/thepla-280x280.jpg",
-        "idMeal": "53016"
+        "idMeal": "2"
       },
     {
         "strMeal": "Dabeli Recipe",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/02/dabeli-recipe-280x280.jpg",
-        "idMeal": "53014"
+        "idMeal": "3"
       },
     {
         "strMeal": "Khandvi Recipe",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/07/khandvi-recipe-280x280.jpg",
-        "idMeal": "53018"
+        "idMeal": "4"
       },
     {
-        "strMeal": "Methi Muthia (Fried And Steamed)",
-        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/08/steamed-and-fried-methi-muthia-280x280.jpg",
-        "idMeal": "53017"
+        "strMeal": "Instant Rava Dhokla | Sooji Dhokla",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/09/rava-dhokla-recipe-280x280.jpg",
+        "idMeal": "5"
+      },
+     {
+        "strMeal": "Gujarati Kadhi",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/05/how-to-make-gujarati-kadhi-280x280.jpg",
+        "idMeal": "6"
+      },
+    {
+        "strMeal": "Basundi",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/09/basundi-recipe-280x280.jpg",
+        "idMeal": "7"
+      },
+    {
+        "strMeal": "Moong Dal Dhokla",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/06/moong-dhokla-recipe-280x280.jpg",
+        "idMeal": "8"
+      },
+    {
+        "strMeal": "Shrikhand Recipe (Sweetened Flavored Yogurt)",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/04/shrikhand-recipe-280x280.jpg",
+        "idMeal": "9"
+      },
+    {
+        "strMeal": "White Dhokla | Khatta Dhokla",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/09/khatta-dhokla-recipe-280x280.jpg",
+        "idMeal": "10"
+      },
+    {
+        "strMeal": "Aam Chunda | Gujarati Mango Chunda",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/06/aam-ka-chunda-recipe-280x280.jpg",
+        "idMeal": "11"
+      },
+    {
+        "strMeal": "Lasaniya Batata Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/07/lasaniya-batata-recipe-280x280.jpg",
+        "idMeal": "12"
+      },
+    {
+        "strMeal": "Sev Tameta Nu Shaak Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/12/sev-tameta-nu-shaak-recipe-280x280.jpg",
+        "idMeal": "13"
+      },
+    {
+        "strMeal": "Khatti Meethi Dal (Sweet & Sour Dal)",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/01/gujarati-khatti-meethi-dal-280x280.jpg",
+        "idMeal": "14"
+      },
+    {
+        "strMeal": "Puffed Rice Recipe | Spiced Puffed Rice | Murmura Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/07/murmura-chaat-280x280.jpg",
+        "idMeal": "15"
+      },
+    {
+        "strMeal": "Lauki Thepla",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/12/lauki-thepla-recipe-280x280.jpg",
+        "idMeal": "16"
+      },
+    {
+        "strMeal": "Undhiyu Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/04/undhiyu-recipe-280x280.jpg",
+        "idMeal": "17"
+      },
+    {
+        "strMeal": "Chana Dal Dhokla | Traditional Gujarati Vati Dal Dhokla",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/06/gujarati-dhokla-recipe-280x280.jpg",
+        "idMeal": "18"
+      },
+     {
+        "strMeal": "Methi Na Gota",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/07/methi-na-gota-or-methi-pakora-recipe-280x280.jpg",
+        "idMeal": "19"
+      },
+     {
+        "strMeal": "Masaledar Poori | Teekha Poori | Spicy Indian Fry Bread",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2009/09/masala-poori-recipe-280x280.jpg",
+        "idMeal": "20"
+      },
+     {
+        "strMeal": "Aamras Recipe, How To Make Aamras | Aamras Puri | Aam Ras",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2010/05/aamras-recipe-easy-280x280.jpg",
+        "idMeal": "21"
+      },
+     {
+        "strMeal": "Sev Recipe | Besan Sev | How To Make Besan Sev Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/10/masala-sev-recipe-280x280.jpg",
+        "idMeal": "22"
+      },
+     {
+        "strMeal": "Batata Nu Shaak",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2014/07/batata-nu-shaak-280x280.jpg",
+        "idMeal": "23"
+      },
+     {
+        "strMeal": "Maru Bhajia Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/06/marus-bhajia-recipe-280x280.jpg",
+        "idMeal": "24"
+      },
+     {
+        "strMeal": "Mango Salad Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2016/06/raw-mango-salad-recipe-2-280x280.jpg",
+        "idMeal": "26"
       }
   ]
 }
