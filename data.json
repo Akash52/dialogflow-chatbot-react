@@ -9,6 +9,11 @@
         "strMeal": "Thepla Recipe | Methi Thepla (Fenugreek Flatbread)",
         "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/thepla-280x280.jpg",
         "idMeal": "53016"
+      },
+    {
+        "strMeal": "Dabeli Recipe",
+        "strMealThumb": "https://www.vegrecipesofindia.com/wp-content/uploads/2012/02/dabeli-recipe-280x280.jpg",
+        "idMeal": "53016"
       }
   ]
 }
