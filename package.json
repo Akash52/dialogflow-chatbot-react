@@ -3,24 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^5.9.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
-    "dialogflow": "^1.2.0",
+    "dialogflow": "^4.0.3",
     "dialogflow-fulfillment": "^0.6.1",
     "react": "^17.0.1",
-    "react-chat-popup": "^1.1.2",
-    "react-chat-widget": "^3.0.5",
     "react-dom": "^17.0.1",
-    "react-scripts": "4.0.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^1.1.5",
     "uuid": "^8.3.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,7 +32,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
@@ -40,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "react-scroll-to-bottom": "^4.1.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   }
 }
