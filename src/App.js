@@ -1,13 +1,12 @@
 import React from 'react'
-import { BrowserRouter as Router } from 'react-router-dom'
+import './App.css'
 import Chat from './Chat'
-import Header from './Layout/Header'
 
 export default function App() {
   return (
-    <Router>
-      <Header />
+    <div className="mainSection">
+      <div className="heading">Dialogflow CHATBOT</div>
       <Chat />
-    </Router>
+    </div>
   )
 }

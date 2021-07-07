@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+.chatSection {
+  width: 350px;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-10%, -45%);
+  border-radius: 10px;
+  background-color: #dafff3;
+  overflow: auto;
+  box-shadow: 0 9px 33px rgba(0, 0, 0, 0.07);
+  scroll-behavior: auto;
+}
+
+.heading {
+  font-size: 30px;
+  font-family: 'Fira Code';
+  text-align: center;
+  margin: 30px;
+}
+
+.botContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.messagesSection {
+  height: 90%;
+}
+
+.messageInputField {
+  margin: 0;
+  font-size: 18px;
+  height: 20px;
+  padding: 20px;
+  outline: none;
+  border: 1px solid gray;
+  width: 100%;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.inputSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 7px;
+}
+
+.messagesSection {
+  min-height: 70vh;
+  max-height: 70vh;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
+.botCard {
+  width: 70%;
+  border-bottom-right-radius: 30px 30px;
+  border-top-right-radius: 30px 30px;
+  border-bottom-left-radius: 30px 30px;
+  background-color: #f17985;
+  margin-left: 5px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.userCard {
+  width: 70%;
+  border-bottom-right-radius: 30px 30px;
+  border-top-left-radius: 30px 30px;
+  border-bottom-left-radius: 30px 30px;
+  float: right;
+  background-color: #05c267;
+  margin-right: 5px;
+  color: white;
+}
+
+.messagesSection::-webkit-scrollbar {
+  display: none;
+}
+
+.messagesSection {
+  -ms-overflow-style: none; /* IE and Edge */
+  /* Firefox */
+}
+
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 992px) {
+  .userCard {
+    width: 50%;
+  }
+
+  .botCard {
+    width: 50%;
+  }
+}
