@@ -44,8 +44,9 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
                                                                                                                                                                                 
 
 
-### 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- [sharmaritesh3312.medium](https://codeburst.io/building-scalable-chatbots-in-react-with-dialogflow-1091ff462e40) 
+### 🎉 Acknowledgements & Inspiration
+- [sharmaritesh3312.medium](https://codeburst.io/building-scalable-chatbots-in-react-with-dialogflow-1091ff462e40)
+- [https://github.com/Akash52/react-chat-ui](https://github.com/Akash52/react-chat-ui)  
 
 
 
