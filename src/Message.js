@@ -4,9 +4,9 @@ const Message = ({ message }) => {
   return (
     <>
       {message.isBot ? (
-        <div class="flex items-end">
+        <div className="flex items-end">
           <div
-            class="
+            className="
                 flex flex-col
                 space-y-2
                 text-xs
@@ -14,35 +14,33 @@ const Message = ({ message }) => {
                 mx-2
                 order-2
                 items-start
-                shadow-md
+                shadow-lg
                 rounded-lg
+                m-1
                
               "
           >
             <span
-              class="
+              className="
                     px-4
                     py-2
                    rounded-lg
                     inline-block
-                   
-                    bg-white
-                    text-gray-900
+                    dark:bg-yellow-600
+                    dark:text-white
+                    bg-green-500
+                    text-white
                   "
             >
               {message.text}
             </span>
           </div>
-          <i
-            
-            class="fas fa-desktop w-6 h-6 rounded-full order-1"
-          />
+          <i className="fas fa-desktop w-6 h-6 dark:text-white  rounded-full order-1" />
         </div>
       ) : (
-        
-          <div class="flex items-end pt-4 justify-end">
-            <div
-              class="
+        <div className="flex items-end pt-4 justify-end">
+          <div
+            className="
                 flex flex-col
                 space-y-2
                 text-xs
@@ -50,32 +48,30 @@ const Message = ({ message }) => {
                 mx-2
                 order-1
                 items-end
-                shadow-md
+                shadow-lg
                 rounded-lg
+                m-1
               "
-            >
-              
-                <span
-                  class="
+          >
+            <span
+              className="
+                    
                     px-4
                     py-2
                     rounded-lg
                     inline-block
                     
-                    bg-gray-900
+                    dark:bg-blue-600
+                    dark:text-white
+                    bg-indigo-500
                     text-white
                   "
-                >
-                  {message.text}
-                </span>
-              
-            </div>
-            <i
-            
-            class="fas fa-user w-6 h-6 rounded-full order-1"
-          />
+            >
+              {message.text}
+            </span>
           </div>
-       
+          <i class="fas fa-user w-6 h-6 dark:text-white  rounded-full order-1" />
+        </div>
       )}
     </>
   )

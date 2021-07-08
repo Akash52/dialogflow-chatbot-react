@@ -18,7 +18,7 @@ body {
 .messagesSection {
   min-height: 70vh;
   max-height: 70vh;
-  margin-top: 20px;
+  margin-top: 10px;
   overflow-y: auto;
   scroll-behavior: smooth;
 }
@@ -42,4 +42,19 @@ body {
 
 .scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
   border-radius: 0.25rem;
+}
+
+.item-enter {
+  opacity: 0;
+}
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.item-exit {
+  opacity: 1;
+}
+.item-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
 }
