@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import './App.css'
 import Messages from './Messages'
 
 const Chat = (props) => {
@@ -17,7 +16,7 @@ const Chat = (props) => {
       .then((response) => {
         const responseData = {
           text:
-            response.data['message']['fulfillmentText'] != ''
+            response.data['message']['fulfillmentText'] !== ''
               ? response.data['message']['fulfillmentText']
               : "Sorry, I can't get it. Can you please repeat once?",
           isBot: true,
@@ -38,7 +37,7 @@ const Chat = (props) => {
       text: currentMessage,
       isBot: false,
     }
-    if (event.key == 'Enter') {
+    if (event.key === 'Enter') {
       setResponses((responses) => [...responses, message])
       handleMessageSubmit(message.text)
       setCurrentMessage('')
