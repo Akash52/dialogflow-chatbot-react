@@ -35,7 +35,7 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
    npm start
    The serve will be live at http://localhost:5000/
    
- # Setup You Google Dialogflow Creadintial  
+ # Setup Your Google Dialogflow Creadintial  
  
  - Create config.js file
  
