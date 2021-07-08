@@ -1,8 +1,5 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-import { Widget } from 'react-chat-widget'
-import 'react-chat-widget/lib/styles.css'
-
 import './App.css'
 import Messages from './Messages'
 
@@ -16,7 +13,7 @@ const Chat = (props) => {
     }
 
     axios
-      .post('https://rmcchatbot.herokuapp.com/chatbot', data)
+      .post('https://jokesbotserver.herokuapp.com/chatbot', data)
       .then((response) => {
         const responseData = {
           text:
@@ -25,7 +22,6 @@ const Chat = (props) => {
               : "Sorry, I can't get it. Can you please repeat once?",
           isBot: true,
         }
-
         setResponses((responses) => [...responses, responseData])
       })
       .catch((error) => {
@@ -62,7 +58,6 @@ const Chat = (props) => {
         placeholder="Write something..."
         className="messageInputField"
       />
-      <div onTap={handleSubmit}></div>
     </div>
   )
 }
