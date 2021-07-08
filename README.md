@@ -1,4 +1,4 @@
-# React Chat-Bot using Dialogflow
+# Dialogflow ChatBot
 ---
 
 [Live Demo](https://dialogflowchatbot.netlify.app/)
@@ -31,7 +31,9 @@ Project Purpose was people can efficiently solve his/her queries using chatbot
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
+
 - [ReactJS](https://reactjs.org/)
+- [tailwindCSS](https://tailwindcss.com/)
 - [NodeJS](https://react-bootstrap.github.io/)
 - [ExpressJS](https://expressjs.com/)
 - [Dialogflow](https://dialogflow.cloud.google.com/)
