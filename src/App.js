@@ -1,12 +1,12 @@
 import React from 'react'
-import './App.css'
 import Chat from './Chat'
 
-export default function App() {
+const App = () => {
   return (
-    <div className="mainSection">
-      <div className="heading">Dialogflow CHATBOT</div>
+    <div>
       <Chat />
     </div>
   )
 }
+
+export default App
