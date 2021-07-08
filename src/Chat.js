@@ -45,19 +45,44 @@ const Chat = (props) => {
   }
 
   return (
-    <div className="chatSection">
-      <div className="messagesContainer">
-        <Messages messages={responses} />
+    <>
+    <div className="flex justify-center  px-3  mx-auto">
+    
+      <div className="max-w-md md:max-w-lg bg-gray-100  flex justify-between flex-col  h-full   w-full py-4  shadow-sm rounded-xl my-2">
+      
+        <div
+          className="messagesSection flex flex-col
+          space-y-4
+          p-3
+          overflow-y-auto
+          scrollbar-thumb-blue
+          scrollbar-thumb-rounded
+          scrollbar-track-blue-lighter
+          scrollbar-w-2
+          scrolling-touch"
+        >
+          <Messages messages={responses} />
+
+          </div>
+
+          <div className="flex justify-center  px-3 py-2   border-t-2 border-gray-200  ">
+            <div className="py-2 px-2  bg-white lg:max-w-lg  w-full   shadow-sm rounded-lg ">
+              <input
+                type="text"
+                value={currentMessage}
+                onChange={handleMessageChange}
+                onKeyDown={handleSubmit}
+                placeholder="Enter your message here"
+                className="block w-full  bg-white border border-gray-300  rounded-md py-2 pl-3 pr-3 text-sm placeholder-gray-500 dark:placeholder-gray-100 focus:outline-none focus:text-gray-900 focus:placeholder-gray-400 dark:focus:placeholder-white focus:ring-1 focus:ring-indigo-300  sm:text-sm"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-      <input
-        type="text"
-        value={currentMessage}
-        onChange={handleMessageChange}
-        onKeyDown={handleSubmit}
-        placeholder="Write something..."
-        className="messageInputField"
-      />
-    </div>
+      </>
+      
+      
+    
   )
 }
 
