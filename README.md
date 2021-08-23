@@ -5,7 +5,7 @@
 
 ##  About <a name = "about"></a>
 
-Project Purpose was people can efficiently solve his/her queries using chatbot
+Small talk chatBot
 
 ### Prerequisites
 
