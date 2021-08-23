@@ -1,5 +1,5 @@
 const dialogflow = require('dialogflow')
-const dialogflowConfig = require('./config')
+const dialogflowConfig = require('./config/config')
 
 const projectId = dialogflowConfig.project_id
 const configuration = {
@@ -27,7 +27,7 @@ async function talkToChatbot(message) {
     },
   }
 
-  const response = await sessionClient
+  let response = await sessionClient
     .detectIntent(botRequest)
     .then((responses) => {
       //console.log(JSON.stringify(responses))

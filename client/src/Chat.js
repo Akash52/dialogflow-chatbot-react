@@ -12,7 +12,7 @@ const Chat = () => {
     }
 
     axios
-      .post('https://jokesbotserver.herokuapp.com/chatbot', data)
+      .post('https://chatbotusingdialogflow.herokuapp.com/chatbot', data)
       .then((response) => {
         const responseData = {
           text:

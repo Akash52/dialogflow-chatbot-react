@@ -1,4 +1,5 @@
 const express = require('express')
+const path = require('path')
 const app = express()
 const cors = require('cors')
 const morgan = require('morgan')
@@ -17,7 +18,7 @@ app.get('/', (req, res) => {
 
 app.post('/chatbot', jsonParser, urlEncoded, async (req, res) => {
   const message = req.body.message
-  console.log('message' + message)
+  //console.log('message' + message)
 
   talkToChatbot(message)
     .then((response) => {
@@ -31,6 +32,12 @@ app.post('/chatbot', jsonParser, urlEncoded, async (req, res) => {
     })
 })
 app.use(fulfillmentRoutes)
+
+app.use(express.static(path.join(__dirname, 'client')))
+
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
+})
 
 const port = process.env.PORT || 3001
 
