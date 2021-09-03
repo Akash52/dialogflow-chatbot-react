@@ -11,10 +11,8 @@ const Chat = () => {
       message,
     }
 
-    //https://chatbotusingdialogflow.herokuapp.com
-
     axios
-      .post('http://localhost:3001/chatbot', data)
+      .post('https://chatbotusingdialogflow.herokuapp.com/chatbot', data)
       .then((response) => {
         const responseData = {
           text:

@@ -68,7 +68,7 @@ const Message = ({ message }) => {
               {message.text}
             </span>
           </div>
-          <i class="fas fa-user w-6 h-6 dark:text-white  rounded-full order-1" />
+          <i className="fas fa-user w-6 h-6 dark:text-white  rounded-full order-1" />
         </div>
       )}
     </>
