@@ -4,7 +4,7 @@ const Message = ({ message }) => {
   return (
     <>
       {message.isBot ? (
-        <div className="flex items-end">
+        <div className="flex items-end justify-start">
           <div
             className="
                 flex flex-col
@@ -38,7 +38,7 @@ const Message = ({ message }) => {
           <i className="fas fa-desktop w-6 h-6 dark:text-white  rounded-full order-1" />
         </div>
       ) : (
-        <div className="flex items-end pt-4 justify-end">
+        <div className="flex items-end pt-2 justify-end">
           <div
             className="
                 flex flex-col
@@ -55,12 +55,10 @@ const Message = ({ message }) => {
           >
             <span
               className="
-                    
                     px-4
                     py-2
                     rounded-lg
                     inline-block
-                    
                     dark:bg-blue-600
                     dark:text-white
                     bg-indigo-500

@@ -11,8 +11,10 @@ const Chat = () => {
       message,
     }
 
+    //https://chatbotusingdialogflow.herokuapp.com
+
     axios
-      .post('https://chatbotusingdialogflow.herokuapp.com/chatbot', data)
+      .post('http://localhost:3001/chatbot', data)
       .then((response) => {
         const responseData = {
           text:
@@ -46,8 +48,8 @@ const Chat = () => {
 
   return (
     <>
-      <div className="flex justify-center  px-3  mx-auto">
-        <div className="max-w-lg  bg-gray-100  dark:bg-gray-900  flex justify-between flex-col  h-full   w-full py-4  shadow-sm rounded-xl my-2">
+      <div className="flex justify-end  px-3  mx-auto">
+        <div className="max-w-sm lg:max-w-md  bg-gray-100  dark:bg-gray-900  flex justify-between flex-col  w-full h-auto py-4  shadow-sm rounded-xl my-2">
           <div
             className="messagesSection flex flex-col
           space-y-4

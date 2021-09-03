@@ -15,7 +15,7 @@ const sessionClient = new dialogflow.SessionsClient(configuration)
 
 const sessionPath = sessionClient.sessionPath(projectId, sessionId)
 
-async function talkToChatbot(message) {
+const talkToChatbot = async (message) => {
   console.log('message ' + message)
   const botRequest = {
     session: sessionPath,
@@ -31,7 +31,9 @@ async function talkToChatbot(message) {
     .detectIntent(botRequest)
     .then((responses) => {
       //console.log(JSON.stringify(responses))
+
       const requiredResponse = responses[0].queryResult
+      // console.log(requiredResponse)
       return requiredResponse
     })
     .catch((error) => {

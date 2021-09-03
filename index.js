@@ -3,12 +3,13 @@ const path = require('path')
 const app = express()
 const cors = require('cors')
 const morgan = require('morgan')
+
 //Routes
 const talkToChatbot = require('./chatbot')
 const fulfillmentRoutes = require('./fulfillment')
 
-var jsonParser = express.json()
-var urlEncoded = express.urlencoded({ extended: true })
+let jsonParser = express.json()
+let urlEncoded = express.urlencoded({ extended: true })
 app.use(cors())
 app.use(morgan('dev'))
 

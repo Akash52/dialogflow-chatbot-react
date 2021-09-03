@@ -3,14 +3,14 @@ import Chat from './Chat'
 
 const App = () => {
   return (
-    <div>
-      <div className="flex justify-center  px-3">
-        <span className="text-xl font-extrabold tracking-tight animate-pulse text-gray-100 sm:text-5xl ">
-          Dialogflow Chatbot
+    <>
+      <div className="flex justify-end mx-10  px-3">
+        <span className="text-md font-extrabold tracking-tight  text-gray-100 sm:text-3xl ">
+          Small Talk Chatbot
         </span>
       </div>
       <Chat />
-    </div>
+    </>
   )
 }
 
