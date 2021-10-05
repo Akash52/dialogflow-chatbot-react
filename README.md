@@ -5,7 +5,18 @@
 
 ##  About <a name = "about"></a>
 
-Small talk chatBot
+### Trip Planner chatot , using this bot you will be book your flight tickets , book your room , book your car & also you small talk with chatbot.
+
+## Bot message input
+ - user :  Book flight
+ - bot : what date do you want me to book tickets for ?
+ - user : 20th november
+ - bot : where are you flying from ?
+ - user : Banglore
+ - bot : Where are you flying to ?
+ - user : Rajkot
+ - bot : Done! I've booked your flight tickets to 2021-10-20T12:00:00+06:00 , flying from Bengaluru to Rajkot
+
 
 ### Prerequisites
 
