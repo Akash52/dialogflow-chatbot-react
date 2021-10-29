@@ -1,15 +1,18 @@
-import React from 'react'
-import Chat from './Chat'
+import React, { useState } from 'react'
+import Button from './Components/Button'
+import Chat from './Components/Chat'
 
 const App = () => {
+  const [show, setShow] = useState(false)
+
+  const showBtn = () => {
+    setShow(!show)
+  }
+
   return (
     <>
-      <div className="flex justify-end mx-10  px-3">
-        <span className="text-md font-extrabold tracking-tight text-gray-100 sm:text-3xl ">
-          Trip planner chatbot
-        </span>
-      </div>
-      <Chat />
+      <Button show={show} showBtn={showBtn} />
+      {show && <Chat />}
     </>
   )
 }
