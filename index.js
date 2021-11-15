@@ -30,18 +30,10 @@ app.post('/chatbot', jsonParser, urlEncoded, async (req, res) => {
 })
 app.use(fulfillmentRoutes)
 
-if (process.env.NODE_ENV) {
-  app.use(express.static(path.resolve(process.cwd(), 'client/build')))
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(process.cwd(), 'client/build/index.html'))
-  })
-}
-
-// app.use(express.static(path.join(__dirname, 'client')))
-
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
-// })
+app.use(express.static(path.join(__dirname, '../build')))
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../build'))
+})
 
 const port = process.env.PORT || 3001
 
