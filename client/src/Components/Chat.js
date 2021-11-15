@@ -48,9 +48,7 @@ const Chat = () => {
     <>
       <div className="flex justify-end px-3 mx-auto">
         <div className="flex flex-col justify-between w-full h-auto max-w-xs py-4 my-2 bg-gray-100 shadow-sm lg:max-w-md dark:bg-gray-900 rounded-xl">
-          <div
-            className="flex flex-col p-3 space-y-4 overflow-y-auto scrolling-touch messagesSection scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2"
-          >
+          <div className="flex flex-col p-3 space-y-4 overflow-y-auto scrolling-touch messagesSection scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2">
             <Messages messages={responses} />
           </div>
 
