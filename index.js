@@ -13,10 +13,6 @@ let urlEncoded = express.urlencoded({ extended: true })
 app.use(cors())
 app.use(morgan('dev'))
 
-app.get('/', (req, res) => {
-  res.send({ Hello: 'Sky' })
-})
-
 app.post('/chatbot', jsonParser, urlEncoded, async (req, res) => {
   const message = req.body.message
   //console.log('message' + message)
@@ -34,11 +30,18 @@ app.post('/chatbot', jsonParser, urlEncoded, async (req, res) => {
 })
 app.use(fulfillmentRoutes)
 
-app.use(express.static(path.join(__dirname, 'client')))
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'))
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '/client/build', 'index.html'))
+  })
+}
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
-})
+// app.use(express.static(path.join(__dirname, 'client')))
+
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
+// })
 
 const port = process.env.PORT || 3001
 

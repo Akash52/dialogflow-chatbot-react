@@ -12,7 +12,7 @@ const Chat = () => {
     }
 
     axios
-      .post('"YOUR-BACK-END-URL"', data)
+      .post('http://localhost:3001/chatbot', data)
       .then((response) => {
         const responseData = {
           text:
@@ -46,31 +46,23 @@ const Chat = () => {
 
   return (
     <>
-      <div className="flex justify-end  px-3  mx-auto">
-        <div className="max-w-xs lg:max-w-md  bg-gray-100  dark:bg-gray-900  flex justify-between flex-col  w-full h-auto py-4  shadow-sm rounded-xl my-2">
+      <div className="flex justify-end px-3 mx-auto">
+        <div className="flex flex-col justify-between w-full h-auto max-w-xs py-4 my-2 bg-gray-100 shadow-sm lg:max-w-md dark:bg-gray-900 rounded-xl">
           <div
-            className="messagesSection flex flex-col
-          space-y-4
-          p-3
-          overflow-y-auto
-          scrollbar-thumb-blue
-          scrollbar-thumb-rounded
-          scrollbar-track-blue-lighter
-          scrollbar-w-2
-          scrolling-touch"
+            className="flex flex-col p-3 space-y-4 overflow-y-auto scrolling-touch messagesSection scrollbar-thumb-blue scrollbar-thumb-rounded scrollbar-track-blue-lighter scrollbar-w-2"
           >
             <Messages messages={responses} />
           </div>
 
-          <div className="flex justify-center  px-3 py-2   border-t-2 border-gray-200 dark:border-gray-600  ">
-            <div className="py-2 px-2  bg-white dark:bg-gray-800 lg:max-w-lg  w-full   shadow-sm rounded-lg ">
+          <div className="flex justify-center px-3 py-2 border-t-2 border-gray-200 dark:border-gray-600 ">
+            <div className="w-full px-2 py-2 bg-white rounded-lg shadow-sm dark:bg-gray-800 lg:max-w-lg ">
               <input
                 type="text"
                 value={currentMessage}
                 onChange={handleMessageChange}
                 onKeyDown={handleSubmit}
                 placeholder="Enter your message here"
-                className="block w-full  bg-white  dark:bg-gray-700 border border-gray-300 dark:border-gray-900  rounded-md py-2 pl-3 pr-3 text-sm placeholder-gray-500 dark:text-white dark:placeholder-gray-100 focus:outline-none focus:text-gray-900 dark:focus:text-white focus:placeholder-gray-400 dark:focus:placeholder-white focus:ring-1 focus:ring-indigo-300  sm:text-sm"
+                className="block w-full py-2 pl-3 pr-3 text-sm placeholder-gray-500 bg-white border border-gray-300 rounded-md dark:bg-gray-700 dark:border-gray-900 dark:text-white dark:placeholder-gray-100 focus:outline-none focus:text-gray-900 dark:focus:text-white focus:placeholder-gray-400 dark:focus:placeholder-white focus:ring-1 focus:ring-indigo-300 sm:text-sm"
               />
             </div>
           </div>
