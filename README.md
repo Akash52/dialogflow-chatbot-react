@@ -5,7 +5,7 @@
 
 ##  About <a name = "about"></a>
 
-### Trip Planner chatot , using this bot you will be book your flight tickets , book your room , book your car & also you small talk with chatbot.
+### Trip Planner chatbot, using bot you will be book your flight tickets, book your room, book your car & also you small talk with a chatbot.
 
 ## Bot message input
  - user :  Book flight
