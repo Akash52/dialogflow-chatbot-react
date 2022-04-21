@@ -5,7 +5,7 @@
 
 ##  About <a name = "about"></a>
 
-### Trip Planner chatbot, using bot you will be book your flight tickets, book your room, book your car & also you small talk with a chatbot.
+### Here I will make a chatbot using Dialogflow, that helps users to plan a trip. From booking flight tickets to booking hotel rooms. It also provides functionality to book taxis to make thir trip easy.
 
 ## Bot message input
  - user :  Book flight
